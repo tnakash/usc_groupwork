@@ -11,13 +11,13 @@ Set hyperparameters referring Zhou and Ooka (2020). Used MSE for loss function.
 Set epoch number to be 50 and confirmed to be converged.  
 
 ### USC_group4_CNN.ipynb (Deep CNN)
-Used Keras module (Sequential API) and created Decoder, referring the following pages.
-https://qiita.com/koshian2/items/f4917b1e6c944674fb80
-Set hyperparameters as follows; Adam for Optimizer, MSE for Loss Function.
+Used Keras module (Sequential API) and created Decoder, referring the following pages.  
+https://qiita.com/koshian2/items/f4917b1e6c944674fb80  
+Set hyperparameters as follows; Adam for Optimizer, MSE for Loss Function.  
 Used 16-32 kernels (3*3) and Upsampling (1*1→2*2).  
 Use batch normalization for all layers.  
-https://www.scsk.jp/product/oss/tec_guide/tensorflow_keras/1_tensorflow_keras2_2.html
-Set epoch number to be 50 and confirmed to be converged.
+https://www.scsk.jp/product/oss/tec_guide/tensorflow_keras/1_tensorflow_keras2_2.html  
+Set epoch number to be 50 and confirmed to be converged.  
 
 ## Note
 Set input directory which all the input files are in, and output directory which the figure comparing DNN and CFD of test data.  
